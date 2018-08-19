@@ -16,7 +16,7 @@ try {
     $mail->Host = 'mail.privateemail.com';  // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
     $mail->Username = 'admin@cater-allen.group';                 // SMTP username
-    $mail->Password = 'Password1234!';
+    $mail->Password = '********';
     $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
     $mail->Port = 465;                                    // TCP port to connect to
 
